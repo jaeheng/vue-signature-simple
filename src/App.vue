@@ -3,7 +3,7 @@
     <div class="container">
       <ul class="menu">
         <li><a href="/">Home</a></li>
-        <li><a href="/">Github</a></li>
+        <li><a href="https://github.com/jaeheng/vue-signature-simple" target="_blank">Github</a></li>
       </ul>
 
       <section class="section section-1">
