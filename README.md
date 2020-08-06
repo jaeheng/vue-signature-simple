@@ -51,4 +51,4 @@ paypal
 
 wechat pay
 
-![wechat](public/wechat-pay.png)
+![wechat](https://vss.zhangziheng.com/wechat-pay.png)
