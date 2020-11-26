@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  padding-top: 60px;
+  color: #2b2b2b;
+}
 .container {
   width: 1000px;
   margin: 0 auto;
@@ -14,28 +18,62 @@ a {
 a:hover {
   color: #2e5be2;
 }
+.header {
+  background: #2b2b2b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.fr {
+  float: right;
+}
 .menu {
-  padding: 30px 0;
+  padding: 15px 0;
   li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 30px;
+    color: #fff;
   }
 }
+.router-link-exact-active.router-link-active {
+  font-weight: bold;
+  color: #a8a8a2;
+}
+
 .btns {
   padding: 30px 0;
   text-align: center;
 }
 .btns button {
   margin: 0 5px;
+  background: #3860da;
+  color: #fff;
+  outline: none;
+  border: 1px solid #2e5be2;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 1px #000;
+  &:hover {
+    background: #2549b5;
+  }
 }
-.signature {
-  border: 1px solid #efefef;
-  display: block;
-  margin: 0 auto;
-}
-.vue-signature {
-  display: block;
-  margin: 0 auto;
+.colors {
+  list-style: none;
+  margin-top: 10px;
+  li {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #fff;
+    outline: 1px solid #fff;
+    box-sizing: border-box;
+    margin: 0 3px;
+    &.active {
+      outline-color: #333;
+    }
+  }
 }
 
 .row {
@@ -48,18 +86,8 @@ a:hover {
   float: left;
   text-align: center;
 }
-.section-title {
-  margin-bottom: 2em;
-  text-align: center;
-}
 .content {
   padding: 20px 0;
-}
-pre code.hljs {
-  padding: 20px;
-  margin-top: 2em;
-  border-radius: 4px;
-  background: #2b2b2b;
 }
 .help {
   line-height: 2;
@@ -69,4 +97,29 @@ pre code.hljs {
 .footer {
   text-align: center;
   padding: 30px 0;
+}
+pre {
+  font-size: 14px;
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 1em;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  thead {
+    background: #fafafa;
+  }
+  td, th {
+    text-align: left;
+    border: 1px solid #eee;
+    padding: 10px;
+  }
+  li {
+    list-style: none;
+  }
 }
