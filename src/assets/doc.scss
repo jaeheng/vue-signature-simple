@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  padding-top: 60px;
   color: #2b2b2b;
 }
 .container {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 }
 a {
@@ -18,45 +17,25 @@ a {
 a:hover {
   color: #2e5be2;
 }
-.header {
-  background: #2b2b2b;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
 .fr {
   float: right;
 }
-.menu {
-  padding: 15px 0;
-  li {
-    display: inline-block;
-    margin-right: 30px;
-    color: #fff;
-  }
-}
-.router-link-exact-active.router-link-active {
-  font-weight: bold;
-  color: #a8a8a2;
-}
 
-.btns {
-  padding: 30px 0;
+.btn {
   text-align: center;
 }
-.btns button {
+.btn button {
   margin: 0 5px;
   background: #3860da;
   color: #fff;
   outline: none;
-  border: 1px solid #2e5be2;
-  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, .01);
+  padding: 10px 15px;
   border-radius: 4px;
   cursor: pointer;
-  box-shadow: 0 0 1px #000;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .1);
   &:hover {
-    background: #2549b5;
+    opacity: .7;
   }
 }
 .colors {
@@ -64,46 +43,39 @@ a:hover {
   margin-top: 10px;
   li {
     display: inline-block;
-    width: 16px;
-    height: 16px;
-    border: 2px solid #fff;
-    outline: 1px solid #fff;
+    width: 24px;
+    height: 24px;
+    border: 4px dashed transparent;
     box-sizing: border-box;
     margin: 0 3px;
+    border-radius: 2px;
+    cursor: pointer;
     &.active {
-      outline-color: #333;
+      border-color: #f0f8fc;
     }
   }
-}
-
-.row {
-  display: block;
-  overflow: hidden;
-  padding: 30px 0;
-}
-.col {
-  width: 50%;
-  float: left;
-  text-align: center;
 }
 .content {
   padding: 20px 0;
 }
 .help {
   line-height: 2;
-  color: #666;
+  color: #aaa;
   font-size: 14px;
-}
-.footer {
-  text-align: center;
-  padding: 30px 0;
 }
 pre {
   font-size: 14px;
-  background: #f3f3f3;
-  padding: 10px;
+  background: #fafafa;
+  padding: 15px;
   border-radius: 4px;
   margin-top: 1em;
+  line-height: 1.6;
+  .keyword, .attr, .name, .tag {
+    color: #3182bd;
+  }
+  .string {
+    color: #756bb1;
+  }
 }
 .table {
   width: 100%;
@@ -121,5 +93,37 @@ pre {
   }
   li {
     list-style: none;
+  }
+}
+// section-1
+.section-1 {
+  background: #f0f8fc;
+  padding: 50px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  .title {
+    font-size: 40px;
+    font-family: cursive;
+  }
+  .sub-title {
+    font-size: 13px;
+    color: #aaa;
+  }
+  .vue-signature {
+    margin: 0 auto;
+  }
+  .signature {
+    border: 1px dashed #ccc;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.section-2 {
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 14px;
   }
 }

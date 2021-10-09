@@ -2,28 +2,28 @@
   <div class="container document">
     <h1>Document</h1>
     <section class="section section-2">
-      <h4>Install</h4>
+      <h3>Install</h3>
       <div class="content">
-        <pre class="code">> npm install vue-signature-simple</pre>
+        <pre class="code">npm install vue-signature-simple</pre>
       </div>
-      <h4>Usage</h4>
+      <h3>Usage</h3>
       <div class="content">
-          <pre class="code">
-// main.js
-import VueSignature from 'vue-signature-simple'
-Vue.use(VueSignature)
-
-// Attributes example
-// The ref attribute can distinguish multiple signature components
-&lt;vue-signature ref="s1" /&gt;
-&lt;vue-signature ref="s2" /&gt;
-
-// Methods example
-this.$refs.s1.clear()
-          </pre>
+        <h4>main.js</h4>
+        <pre class="code">
+<span class="keyword">import</span> VueSignature <span class="keyword">from</span> <span class="string">'vue-signature-simple'</span>;
+Vue.use(VueSignature);
+</pre>
+        <h4 style="margin-top: 1em;">Attributes example</h4>
+        <pre>
+<span class="tag">&lt;vue-signature ref=</span><span class="string">"s1"</span><span class="tag"> width=</span><span class="string">"400"</span><span class="tag"> /&gt;</span>
+<span class="tag">&lt;vue-signature ref=</span><span class="string">"s2"</span><span class="tag"> /&gt;</span>
+</pre>
+        <p class="help">The ref attribute can distinguish multiple signature components</p>
+        <h4 style="margin-top: 1em;">Methods example</h4>
+        <pre><span class="keyword">this</span>.$refs.s1.clear()</pre>
       </div>
 
-      <h4 id="s0">Attributes</h4>
+      <h3 id="s0">Attributes</h3>
       <table class="table">
         <thead>
         <tr>
@@ -66,7 +66,7 @@ this.$refs.s1.clear()
         </tbody>
       </table>
 
-      <h4 id="s-1">Methods</h4>
+      <h3 id="s-1">Methods</h3>
 
       <table class="table">
         <thead>
@@ -109,6 +109,7 @@ this.$refs.s1.clear()
   h1 {
     margin-top: 1em;
     margin-bottom: 1em;
+    font-size: 34px;
   }
 }
 </style>

@@ -1,0 +1,19 @@
+<svg width="218" height="218" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none">
+ <defs>
+  <pattern patternunits="objectBoundingBox" height="27%" width="20%" y="0" x="0" id="wm_tile">
+   <g fill="#cccccc" id="wm_lm">
+    <text id="svg_5" x="-188.00003" y="-323.00021" font-size="15" transform="rotate(-390 -188 -323)">
+     <tspan id="svg_6" y="378.24558" opacity="0.3" x="187.49095">copyright © copyright ©</tspan>
+    </text>
+   </g>
+  </pattern>
+ </defs>
+ <!---->
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_10" stroke-width="0" fill="#007fff" d="m55,56.5l77,0c9.3,0 18.2,1.6 26.4,4.7c-10.8,-29.6 -39.1,-50.7 -72.4,-50.7c-42.5,0 -77,34.5 -77,77c0,33.3 21.1,61.6 50.6,72.4c-3,-8.2 -4.7,-17.1 -4.7,-26.4l0,-77l0.1,0z"/>
+  <path id="svg_7" stroke-width="0" fill="#f800fc" d="m158.4,61.1c3,8.2 4.7,17.1 4.7,26.4l0,77l-77.1,0c-9.3,0 -18.2,-1.6 -26.4,-4.7c10.8,29.6 39.1,50.7 72.4,50.7l0,0c42.5,0 77,-34.5 77,-77l0,0c0,-33.3 -21.1,-61.6 -50.6,-72.4z"/>
+  <path id="svg_4" stroke-width="0" fill="#0000D3" d="m163,164.5l0,-77c0,-9.3 -1.6,-18.2 -4.7,-26.4c-8.2,-3 -17.1,-4.7 -26.4,-4.7l-76.9,0l0,77c0,9.3 1.6,18.2 4.7,26.4c8.2,3 17.1,4.7 26.4,4.7l76.9,0z"/>
+  <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Racing Sans One'" font-size="130" id="svg_18" y="154.5" x="67" stroke-width="0" fill="#ffffff">V</text>
+ </g>
+</svg>
