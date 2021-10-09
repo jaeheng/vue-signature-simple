@@ -21,6 +21,7 @@
                 :key="item"
                 :class="{ active: strokeColor === item }"></li>
             </ul>
+            <input type="text" v-model="strokeColor" class="input">
           </div>
           <div class="col">
             <img :src="signature" alt="signature" v-if="signature" class="signature">
@@ -56,6 +57,11 @@ Vue.use(VueSignature);
           <h4 style="margin-top: 1em;">Methods example</h4>
 <pre><span class="keyword">this</span>.$refs.s1.clear()</pre>
         </div>
+
+        <h3>Demo</h3>
+        <div class="content">
+          <a href="https://draw.zhangziheng.com" target="_blank">随手画</a>
+        </div>
       </div>
     </div>
   </div>
@@ -69,6 +75,11 @@ Vue.use(VueSignature);
   }
   .col {
     flex: 1;
+  }
+  .input {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 5px;
   }
 }
 </style>

@@ -1,27 +1,7 @@
 <template>
   <div class="container document">
-    <h1>Document</h1>
+    <h1>API</h1>
     <section class="section section-2">
-      <h3>Install</h3>
-      <div class="content">
-        <pre class="code">npm install vue-signature-simple</pre>
-      </div>
-      <h3>Usage</h3>
-      <div class="content">
-        <h4>main.js</h4>
-        <pre class="code">
-<span class="keyword">import</span> VueSignature <span class="keyword">from</span> <span class="string">'vue-signature-simple'</span>;
-Vue.use(VueSignature);
-</pre>
-        <h4 style="margin-top: 1em;">Attributes example</h4>
-        <pre>
-<span class="tag">&lt;vue-signature ref=</span><span class="string">"s1"</span><span class="tag"> width=</span><span class="string">"400"</span><span class="tag"> /&gt;</span>
-<span class="tag">&lt;vue-signature ref=</span><span class="string">"s2"</span><span class="tag"> /&gt;</span>
-</pre>
-        <p class="help">The ref attribute can distinguish multiple signature components</p>
-        <h4 style="margin-top: 1em;">Methods example</h4>
-        <pre><span class="keyword">this</span>.$refs.s1.clear()</pre>
-      </div>
 
       <h3 id="s0">Attributes</h3>
       <table class="table">
@@ -37,14 +17,14 @@ Vue.use(VueSignature);
         <tbody>
         <tr>
           <td>width</td>
-          <td>width of image</td>
+          <td>width of image (px)</td>
           <td>Number</td>
           <td>-</td>
           <td>300</td>
         </tr>
         <tr>
           <td>height</td>
-          <td>height of image</td>
+          <td>height of image (px)</td>
           <td>Number</td>
           <td>-</td>
           <td>100</td>
@@ -53,7 +33,7 @@ Vue.use(VueSignature);
           <td>stroke-color</td>
           <td>color of line</td>
           <td>String</td>
-          <td>Standard CSS color values</td>
+          <td>eg: #000 / black / rgb(0, 0, 0) / rgba(0, 0, 0, .5)</td>
           <td>black</td>
         </tr>
         <tr>

@@ -7,7 +7,7 @@
         </a>
         <ul class="menu fr">
           <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/document">Document</router-link></li>
+          <li><router-link to="/document">API</router-link></li>
           <li><router-link to="/donate">Donate</router-link></li>
           <li><a href="https://nav.lightcms.cn?from=vss" target="_blank">前端网址导航 <img src="@/assets/images/share.svg" alt="share" style="height: 1em;"></a></li>
         </ul>

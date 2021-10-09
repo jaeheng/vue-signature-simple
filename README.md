@@ -5,7 +5,7 @@
 ## Usage
 install
 ```
-> npm install vue-signature-simple
+npm install vue-signature-simple
 ```
 
 main.js
