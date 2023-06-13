@@ -9,7 +9,6 @@
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/document">API</router-link></li>
           <li><router-link to="/donate">Donate</router-link></li>
-          <li><a href="https://nav.lightcms.cn?from=vss" target="_blank">前端网址导航 <img src="@/assets/images/share.svg" alt="share" style="height: 1em;"></a></li>
         </ul>
       </div>
     </header>
@@ -21,15 +20,13 @@
           <li>
             <h3>更多工具</h3>
             <ul>
-              <li><a href="https://tool.lightcms.cn/word-upsets/" target="_blank">在线文本文字随机打乱器</a></li>
-              <li><a href="https://svg.lightcms.cn/" target="_blank">svg在线编辑器</a></li>
+              <li><a href="https://word.phpat.com/" target="_blank">在线文本文字随机打乱器</a></li>
             </ul>
           </li>
           <li>
             <h3>网址推荐</h3>
             <ul>
-              <li><a href="https://nav.lightcms.cn/" target="_blank">前端网址导航</a></li>
-              <li><a href="https://lightcms.cn/" target="_blank">热点新鲜事</a></li>
+              <li><a href="https://i.phpat.com/" target="_blank">个人主页</a></li>
               <li><a href="https://draw.phpat.com/" target="_blank">随手画</a></li>
             </ul>
           </li>
