@@ -30,7 +30,7 @@
             <ul>
               <li><a href="https://nav.lightcms.cn/" target="_blank">前端网址导航</a></li>
               <li><a href="https://lightcms.cn/" target="_blank">热点新鲜事</a></li>
-              <li><a href="https://draw.zhangziheng.com/" target="_blank">随手画</a></li>
+              <li><a href="https://draw.phpat.com/" target="_blank">随手画</a></li>
             </ul>
           </li>
           <li>

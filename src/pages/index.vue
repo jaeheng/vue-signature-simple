@@ -60,7 +60,7 @@ Vue.use(VueSignature);
 
         <h3>Demo</h3>
         <div class="content">
-          <a href="https://draw.zhangziheng.com" target="_blank">随手画</a>
+          <a href="https://draw.phpat.com" target="_blank">随手画</a>
         </div>
       </div>
     </div>
