@@ -3,7 +3,7 @@
     <header class="page-header">
       <div class="container">
         <a href="/" class="logo" title="Vue-Signature-Simple">
-          <img src="@/assets/images/vss.svg" alt="Vue-Signature-Simple"> Vue-Signature-Simple
+          <img src="/logo.png" alt="Vue-Signature-Simple"> Vue-Signature-Simple
         </a>
         <ul class="menu fr">
           <li><router-link to="/">Home</router-link></li>
@@ -89,7 +89,6 @@
 }
 .footer {
   padding: 50px 0;
-  background: #F7FBFD;
 }
 .footer-row {
   display: flex;
