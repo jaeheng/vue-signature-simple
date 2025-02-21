@@ -18,29 +18,30 @@
       <div class="container">
         <ul class="footer-row">
           <li>
-            <h3>更多工具</h3>
+            <h3>More tools</h3>
             <ul>
-              <li><a href="https://word.phpat.com/" target="_blank">在线文本文字随机打乱器</a></li>
+              <li><a href="https://word.phpat.com/" target="_blank">Shuffle text</a></li>
+              <li><a href="https://ai.phpat.com/" target="_blank">AI resource</a></li>
+              <li><a href="https://tt.phpat.com/" target="_blank">Typing Training</a></li>
+              <li><a href="https://draw.phpat.com/" target="_blank">Drawing Board</a></li>
             </ul>
           </li>
           <li>
-            <h3>网址推荐</h3>
+            <h3>Links</h3>
             <ul>
-              <li><a href="https://i.phpat.com/" target="_blank">个人主页</a></li>
-              <li><a href="https://draw.phpat.com/" target="_blank">随手画</a></li>
+              <li><a href="https://blog.phpat.com/" target="_blank">Blog</a></li>
             </ul>
           </li>
           <li>
-            <h3>相关链接</h3>
+            <h3>Resources</h3>
             <ul>
               <li>
                 <a href="https://github.com/jaeheng/vue-signature-simple" target="_blank">
-                  Github
-                  <img src="@/assets/images/github.svg" alt="github" class="icon">
+                  <img src="@/assets/images/github.svg" alt="github" class="icon"> Github
                 </a>
               </li>
               <li>
-                <a href="https://www.npmjs.com/package/vue-signature-simple" target="_blank">npm</a>
+                <a href="https://www.npmjs.com/package/vue-signature-simple" target="_blank"><img src="@/assets/images/npm.svg" alt="npm" class="icon"> npm</a>
               </li>
             </ul>
           </li>
@@ -107,3 +108,5 @@
   }
 }
 </style>
+<script setup lang="ts">
+</script>

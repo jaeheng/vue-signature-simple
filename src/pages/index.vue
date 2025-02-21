@@ -3,7 +3,8 @@
     <div class="container">
       <div class="section-1">
         <h2 class="title">Vue-Signature-Simple</h2>
-        <p class="sub-title">A electronic signature component by Vue.js</p>
+        <p class="sub-title">Vue-Signature-Simple is a lightweight Vue2 component designed to provide users with an easy and intuitive electronic signature functionality.
+        </p>
         <div class="row">
           <div class="col">
             <vue-signature
@@ -60,7 +61,7 @@ Vue.use(VueSignature);
 
         <h3>Demo</h3>
         <div class="content">
-          <a href="https://draw.phpat.com" target="_blank">随手画</a>
+          <a href="https://draw.phpat.com" target="_blank">Drawing Board</a>
         </div>
       </div>
     </div>
@@ -110,9 +111,9 @@ export default {
     },
     isEmpty () {
       if (this.$refs.s1.isEmpty()) {
-        alert('内容为空')
+        alert('The image content is empty')
       } else {
-        alert('已有签名内容')
+        alert('Signed content already exists')
       }
     },
     changeColor (color) {
