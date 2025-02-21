@@ -1,17 +1,14 @@
-# vue-signature-simple
+---
+outline: deep
+---
+# Getting Started
 
-Vue-Signature-Simple is a lightweight Vue.js component designed to provide users with an easy and intuitive electronic signature functionality.
-
-## Usage
 ### install
-```
-# npm
+```sh
 npm install vue-signature-simple
-# yarn
-yarn add vue-signature-simple
 ```
+### Usage
 
-### component
 ```vue
 <template>
     <vue-signature-simple
@@ -46,25 +43,7 @@ function isEmpty () {
 }
 </script>
 ```
+### License
 
-## API
+[MIT](http://opensource.org/licenses/MIT)
 
-Props
-
-|  name   | description  | default |
-|  ----  | ----  | ---- |
-| width  | signature width | 300 | 
-| height  | signature height | 100 |
-| strokeColor  | pen color | black |
-| strokeSize  | pen size | 2 |
-
-Methods
-
-|  name   | description  | params |
-|  ----  | ----  | ---- |
-| clear  | clear canvas |  | 
-| getSignature  | get signature base64 data | format: (image/png)(image/jpeg)(image/svg+xml) |
-| isEmpty  | return canvas is empty? |  |
-
-## License
-MIT
