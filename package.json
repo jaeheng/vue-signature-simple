@@ -6,7 +6,7 @@
     "serve": "vitepress dev vitepress",
     "build": "vitepress build vitepress",
     "preview": "vitepress preview vitepress",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "deploy": "sh scripts/gh-pages-deploy.sh"
   },
   "devDependencies": {
     "execa": "^9.5.2",
