@@ -3,9 +3,9 @@
   "version": "0.2.1",
   "private": false,
   "scripts": {
-    "docs:dev": "vitepress dev vitepress",
-    "docs:build": "vitepress build vitepress",
-    "docs:preview": "vitepress preview vitepress",
+    "serve": "vitepress dev vitepress",
+    "build": "vitepress build vitepress",
+    "preview": "vitepress preview vitepress",
     "deploy": "node scripts/gh-pages-deploy.js"
   },
   "devDependencies": {
