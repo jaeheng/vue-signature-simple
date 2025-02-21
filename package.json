@@ -2,6 +2,7 @@
   "name": "vue-signature-simple",
   "version": "0.2.1",
   "private": false,
+  "main": "index.js",
   "scripts": {
     "serve": "vitepress dev vitepress",
     "build": "vitepress build vitepress",
@@ -12,5 +13,9 @@
     "execa": "^9.5.2",
     "vitepress": "^1.6.3"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaeheng/vue-signature-simple.git"
+  }
 }
