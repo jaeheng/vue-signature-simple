@@ -1,11 +1,16 @@
 # vue-signature-simple
 
-> A electronic signature component by Vue.js
+Vue-Signature-Simple is a lightweight Vue.js component designed to provide users with an easy and intuitive electronic signature functionality.
 
 ## Usage
 install
+
+for vue2
 ```
+# npm
 npm install vue-signature-simple
+# yarn
+yarn add vue-signature-simple
 ```
 
 main.js
