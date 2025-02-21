@@ -36,7 +36,7 @@ function randomString (num) {
 }
 
 export default {
-  name: 'vue-signature',
+  name: 'vue-signature-simple',
   emits: ['change'],
   props: {
     height: {

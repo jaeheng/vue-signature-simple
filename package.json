@@ -9,6 +9,7 @@
     "deploy": "node scripts/gh-pages-deploy.js"
   },
   "devDependencies": {
+    "execa": "^9.5.2",
     "vitepress": "^1.6.3"
   },
   "type": "module"
