@@ -31,8 +31,12 @@ const strokeColor = ref('#4b5cc4');
 const signature = ref('');
 const vssRef = useTemplateRef('vss');
 
-function getSignature (base64) {
-  signature.value = base64
+function getSignature (dataUrl) {
+  signature.value = dataUrl
+}
+function clear () {
+  vssRef.value.clear()
+  signature.value = ''
 }
 function isEmpty () {
   if (vssRef.value.isEmpty()) {

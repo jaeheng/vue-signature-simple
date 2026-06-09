@@ -33,7 +33,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .row {
   display: flex;
   overflow: hidden;
@@ -111,8 +111,8 @@ const signature = ref('');
 const colors = ref(['#161823', '#3b2e7e', '#4b5cc4', '#4c8dae', '#c3272b', '#FF7F00', '#eacd76', '#40de5a', '#fafafa']);
 const vssRef = useTemplateRef('vss');
 
-function getSignature () {
-  signature.value = vssRef.value.getSignature()
+function getSignature (dataUrl) {
+  signature.value = dataUrl
 }
 function changeColor (color) {
   strokeColor.value = color

@@ -10,4 +10,4 @@ paypal
 
 wechat pay
 
-![wechat](https://vss.phpat.com/wechat-pay.png)
+![wechat](/wechat-pay.png)

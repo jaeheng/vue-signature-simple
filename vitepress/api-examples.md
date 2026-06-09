@@ -18,5 +18,5 @@ Methods
 |  name   | description  | params |
 |  ----  | ----  | ---- |
 | clear  | clear canvas |  | 
-| getSignature  | get signature base64 data | format: (image/png)(image/jpeg)(image/svg+xml) |
+| getSignature  | get signature base64 data | format: (image/png)(image/jpeg) |
 | isEmpty  | return canvas is empty? |  |
