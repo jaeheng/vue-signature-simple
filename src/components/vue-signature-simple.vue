@@ -1,7 +1,7 @@
 <template>
   <div class="vue-signature" :style="{ width: width + 'px', height: height + 'px' }">
     <canvas
-      :id="id"
+      ref="canvasRef"
       :width="width"
       :height="height"
       @mousedown.prevent="mouseDown"
@@ -18,23 +18,6 @@
 </template>
 
 <script>
-/**
- * random string
- * @param num string length
- * @returns {string}
- */
-function randomString (num) {
-  const str = '82gwp7a9e0tzvsqrjy3kubif6l5cnodxhm41'
-  const arr = str.split('')
-
-  let randomString = ''
-  for (let i = 0; i < num; i++) {
-    const index = Math.floor(Math.random() * str.length)
-    randomString += arr[index]
-  }
-  return randomString
-}
-
 export default {
   name: 'vue-signature-simple',
   emits: ['change'],
@@ -55,13 +38,11 @@ export default {
   },
   data () {
     return {
-      id: 'vue-signature-' + randomString(5),
       isMouseDown: false,
       lastLocation: {
         x: 0,
         y: 0
       },
-      log: [],
       empty: true
     }
   },
@@ -70,7 +51,7 @@ export default {
      * initialization
      */
     init () {
-      this.canvas = document.getElementById(this.id)
+      this.canvas = this.$refs.canvasRef
       this.context = this.canvas.getContext('2d')
     },
     /**
