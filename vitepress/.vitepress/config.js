@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/vue-signature-simple/',
+  base: '/',
   outDir: '../docs',
   title: "Vue-Signature-Simple",
   description: "a lightweight Vue.js component designed to provide users with an easy and intuitive electronic signature functionality.",
