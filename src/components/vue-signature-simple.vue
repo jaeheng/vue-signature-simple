@@ -98,8 +98,8 @@ export default {
      * @param e
      */
     mouseDown (e) {
-      const clientX = e.clientX || e.changedTouches[0].clientX
-      const clientY = e.clientY || e.changedTouches[0].clientY
+      const clientX = e.clientX || e.touches[0].clientX
+      const clientY = e.clientY || e.touches[0].clientY
       this.isMouseDown = true
       this.lastLocation = this.coordinateTransfer(clientX, clientY)
     },
@@ -116,8 +116,8 @@ export default {
      */
     mouseMove (e) {
       if (this.isMouseDown) {
-        const clientX = e.clientX || e.changedTouches[0].clientX
-        const clientY = e.clientY || e.changedTouches[0].clientY
+        const clientX = e.clientX || e.touches[0].clientX
+        const clientY = e.clientY || e.touches[0].clientY
         const currentLocation = this.coordinateTransfer(clientX, clientY)
         const context = this.context
         const lastLocation = this.lastLocation
@@ -132,8 +132,8 @@ export default {
         context.stroke()
         this.lastLocation = currentLocation
         this.empty = false
+        this.$emit('change', this.getSignature())
       }
-      this.$emit('change', this.getSignature())
     },
     /**
      * Get Base64 data of signature image
